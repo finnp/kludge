@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Run a Node snippet and resolve require()d external dependencies",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/finnp/kludge/issues"
   },
-  "homepage": "https://github.com/finnp/kludge"
+  "homepage": "https://github.com/finnp/kludge",
+  "dependencies": {
+    "builtins": "0.0.7",
+    "detective": "^4.0.0",
+    "temp": "^0.8.1",
+    "validate-npm-package-name": "^2.0.1"
+  }
 }
