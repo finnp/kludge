@@ -1,0 +1,25 @@
+{
+  "name": "kludge",
+  "version": "1.0.0",
+  "description": "Run a Node snippet and resolve require()d external dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/kludge.git"
+  },
+  "keywords": [
+    "dependency",
+    "modules",
+    "require",
+    "run"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/kludge/issues"
+  },
+  "homepage": "https://github.com/finnp/kludge"
+}
